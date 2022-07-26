@@ -70,7 +70,7 @@
 
     <build>
         <sourceDirectory>src</sourceDirectory>
-        <testSourceDirectory>decompilation-test/src</testSourceDirectory>
+<!--        <testSourceDirectory>decompilation-test/src</testSourceDirectory>-->
         <plugins>
             <!-- For getting Git revision information -->
             <plugin>
@@ -113,11 +113,11 @@
                 <artifactId>maven-compiler-plugin</artifactId>
                 <version>3.9.0</version>
                 <configuration>
-                    <testSource>8</testSource>
-                    <testTarget>8</testTarget>
+                    <testSource>11</testSource>
+                    <testTarget>11</testTarget>
                     <compilerArgument>-Xlint:none</compilerArgument>
-                    <source>8</source>
-                    <target>8</target>
+                    <source>11</source>
+                    <target>11</target>
                 </configuration>
             </plugin>
             <plugin>
