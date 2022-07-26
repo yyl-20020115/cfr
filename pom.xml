@@ -116,6 +116,8 @@
                     <testSource>8</testSource>
                     <testTarget>8</testTarget>
                     <compilerArgument>-Xlint:none</compilerArgument>
+                    <source>8</source>
+                    <target>8</target>
                 </configuration>
             </plugin>
             <plugin>
@@ -165,7 +167,7 @@
                 </executions>
                 <configuration>
                     <doctitle>CFR API</doctitle>
-                    <title>CFR API</title>
+<!--                    <title>CFR API</title>-->
                     <!-- NB: We don't use -html5, as it requires j9+, which not everyone has -->
                     <additionalOptions>-quiet</additionalOptions>
                     <!--<bottom>Copyright &#169; {inceptionYear}&#x2013;{currentYear} Lee Benfield - https://www.benf.org/other/cfr</bottom>-->
@@ -173,7 +175,7 @@
                         org/benf/cfr/reader/api
                     </subpackages>
                     <doclint>none</doclint>
-                    <sourcefileincludes>**\/api\/*.java</sourcefileincludes>
+<!--                    <sourcefileincludes>**\/api\/*.java</sourcefileincludes>-->
                 </configuration>
             </plugin>
             <plugin>
